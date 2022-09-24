@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(230, 211, 248);
+    background-size: cover;
+    font-family: sans-serif;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.register {
+    width: 350px;
+    height: 600px;
+    padding: 30px;
+    border: 5px solid #374d63;
+    border-radius: 10px;
+    outline: none;
+    background: rgb(52, 73, 94, 1)
+}
+
+form h2 {
+    color: #ecf0f1;
+    text-align: center;
+}
+
+.input-style {
+    margin-top: 10px;
+
+}
+
+.input-style input {
+    width: 90%;
+    background: transparent;
+    padding: 3px;
+    border: 2px solid #16a085;
+    border-radius: 5px;
+    color: #ecf0f1;
+    outline: none;
+    height: 15px;
+    margin-bottom: 10px;
+}
+
+.input-style label {
+    color: #ecf0f1;
+    margin-bottom: 4px;
+    display: block;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 1px;
+}
+
+.gender p {
+    color: #ecf0f1;
+    margin-top: 4px;
+}
+
+.option {
+    margin-top: 6px; 
+}
+
+.option label {
+    color: #ecf0f1;
+    cursor: pointer;
+}
+
+.register-page input {
+    width: 90%;
+    margin-top: 20px;
+    padding: 10px;
+    background: linear-gradient(130deg, #1abc9c, #16a085);
+    outline: none;
+    border-radius: 5px;
+    color: #ecf0f1;
+    cursor: pointer;
+    border: none;
+}
+
+.register-page input:hover {
+    background: linear-gradient(-130deg, #1abc9c, #16a085);
+}
